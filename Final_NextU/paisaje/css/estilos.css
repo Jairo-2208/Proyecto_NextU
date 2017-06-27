@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    background: black;
+}
+section header{
+    background: #5b7989;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    color: white;
+    margin-top: 5px;
+    border-radius: 10px 10px 0 0;
+}
+.contenedor{
+      width: 98%;
+      margin: auto;
+  }
+
+.contenedor h1{
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #02010a;
+}
+@media (min-width:200px){
+    .contenedor h1{
+        text-align: center;
+    }
+}
+@media (min-width:900px){
+    section header{
+        max-width: 900px;
+        margin-top: 5px;
+    }
+    .contenedor h1{
+        text-align: left;
+    }
+
+    #principal{
+      max-width: 900px;
+      margin: auto;
+    }
+  }
+.pagina_paisaje{
+   -webkit-animation: 0.9s slidein 1;
+    -ms-animation: 0.9s slidein 1;
+    -moz-animation: 0.9s slidein 1;
+    -o-animation: 0.9s slidein 1;
+}
+/* Key frames version Google Chrome*/
+@-webkit-keyframes slidein{
+    0%{
+        margin-top: 150%;
+    }
+    60%{
+        margin-top: -5%;
+    }
+    100%{
+        margin-top: 0%;
+    }
+}
+/* Key frames version internet explorer 10*/
+@-ms-keyframes slidein{
+    0%{
+        margin-top: 150%;
+    }
+    60%{
+        margin-top: -5%;
+    }
+    100%{
+        margin-top: 0%;
+    }
+}
+/* Key frames version Mozilla firefox*/
+@-moz-keyframes slidein{
+    0%{
+        margin-top: 150%;
+    }
+    60%{
+        margin-top: -5%;
+    }
+    100%{
+        margin-top: 0%;
+    }
+}
+/* Key frames version Opera*/
+@-o-keyframes slidein{
+    0%{
+        margin-top: 150%;
+    }
+    60%{
+        margin-top: -5%;
+    }
+    100%{
+        margin-top: 0%;
+    }
+}

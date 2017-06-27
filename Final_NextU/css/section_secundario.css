@@ -1,0 +1,121 @@
+#secundario .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #d5c75f;    
+    width: 100%;
+    max-width: 900px;
+    
+}
+#secundario img{
+    width: 90%;
+    height: 90%;
+    max-width: 400px;
+    margin-left: 5%;
+    margin-top: 20px;
+    
+    
+}
+#secundario h3>a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+#secundario h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#imagen_1 img, #imagen_2 img{
+    border: 2px solid black;
+}
+#imagen_1 img:hover{
+    -webkit-animation: 0.9s deg 1;
+    box-shadow: 2px 2px 0px 0px #82c3a6;
+}
+#imagen_2 img:hover{
+    -webkit-animation: 1s transfer 1;
+    box-shadow: 2px 2px 0px 0px #82c3a6;
+}
+/* Key frames version Google Chrome*/
+@-webkit-keyframes deg{
+    25%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+    
+}
+@-webkit-keyframes transfer{
+    10%{
+        transform: translateY(-5px);
+        
+    }
+    50%{
+        transform: translateX(20px);
+    }
+}
+/* Key frames version internet explorer 10*/
+@-ms-keyframes deg{
+    25%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+    
+}
+
+@-ms-keyframes transfer{
+    10%{
+        transform: translateY(-5px);
+        
+    }
+    50%{
+        transform: translateX(20px);
+    }
+}
+/* Key frames version Mozilla firefox*/
+@-moz-keyframes deg{
+    25%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+    
+}
+
+@-moz-keyframes transfer{
+    10%{
+        transform: translateY(-5px);
+        
+    }
+    50%{
+        transform: translateX(20px);
+    }
+}
+/* Key frames version Opera*/
+@-op-keyframes deg{
+    25%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+    
+}
+@-op-keyframes transfer{
+    10%{
+        transform: translateY(-5px);
+        
+    }
+    50%{
+        transform: translateX(20px);
+    }
+}

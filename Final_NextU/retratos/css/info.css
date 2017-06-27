@@ -1,0 +1,20 @@
+#info .contenedor{
+    background: #C6d5c5;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    border-radius: 0 0 10px 10px;
+
+}
+.info-pag{
+    margin: 10px;
+    font-size: 21px;
+    padding: 15px;
+}
+.info-pag a{
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+}
